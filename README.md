@@ -16,7 +16,7 @@ In this study, I would like to answer the following questions:
  3.	Is it possible to predict if a population will have a life expectancy >= 65?
 
 ## Study Outline
-Coding was completed in R using RStudio IDE.   The following defines the process used to complete the study:
+Coding was completed in R using RStudio IDE ([Project Code](Project.R)).   The following defines the process used to complete the study:
 
 1.	Load and Clean Data
 2.	Plot and Visualize Data (from 2014 only)
@@ -116,7 +116,7 @@ The data set did not include categorical variables.  Therefore, I created a colu
 
 Again, the data was loaded, cleaned and scaled.  Since the dependent variable was categorical, rather than numerical, it was converted into a type factor.  A Generalized Linear Model was run, using the same factors as in the linear model.  The model results were used to create the following confusion matrix:  
 
- ![](Readme%20Pics/9%20Confusion%20Matrix.pngg)
+ ![](Readme%20Pics/9%20Confusion%20Matrix.png)
 
 These results demonstrate that the chosen predictors are exceptional at determining if a country would have a life expectancy greater than 65 years.  
 
@@ -125,24 +125,3 @@ These results demonstrate that the chosen predictors are exceptional at determin
 1.	Use larger data set to train the model rather than simply using data from a single year (2014).  
 2.	Perform different types of models to determine whether or not linear model is the most appropriate vehicle for this analysis.  
 3.	Use outputs from PCA analysis as inputs into the linear model.  I did not understand how to clearly interpret the results from such a model – with combined and rotated predictors.  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-### Results
-All exploratory and inferential statistical analysis and clustering can be found in the attached [notebook](Module3_HomeWork_Final_Changed_After_Class.R) or [notebook with Graphs](Module3_HomeWork_Final_Changed_After_Class.R.html).  
-
-
