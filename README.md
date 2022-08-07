@@ -22,10 +22,10 @@ Coding was completed in R using RStudio IDE.   The following defines the process
 2.	Plot and Visualize Data (from 2014 only)
 3.	Scale/Normalize Data
 4.	Perform Exploratory Analysis 
- a.	Scatter Plot Matrix of Scaled Data
- b.	Calculate Descriptive Statistics
- c.	Corrplot() Analysis
- d.	Create Training and Testing Data
+  - Scatter Plot Matrix of Scaled Data
+  - Calculate Descriptive Statistics
+  - Corrplot() Analysis
+  - Create Training and Testing Data
 5.	Unsupervised Modeling: Perform Clustering and Dimension Reduction
  a.	Perform Kmeans Iteration
  b.	Elbow Plot: Determine Number of Clusters 
