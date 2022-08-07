@@ -63,7 +63,7 @@ The data follows specific 22 features for 184 countries from 2000-2015.  The fol
 
 Data was loaded into the model via a csv file and cleaned of empty data.  For simplicity, data from 2014 was extracted and modeled.  A visualization of a portion of the data is shown below:
 
- 
+ ![](Readme%20Pics/1%20data%20.png)
 
 Prior to modeling, the data was normalized to rid of potential size bias.  Descriptive statistics were developed for 19 features. In addition, a corrplot() function was created to aid in data visualization.  This function is a “visual exploratory tool on correlation matrix that supports automatic variable reordering to help detect hidden patterns among variables”.  Data exploratory analysis results can be found within the programming model.  
 
@@ -71,16 +71,17 @@ Prior to modeling, the data was normalized to rid of potential size bias.  Descr
 
 Both Kmeans and Principal Component Analysis was performed on the full set of normalized 2014 data.  It was difficult to make a definitive decision of number of clusters based upon the elbow curves.  Arguments could be made to choose anywhere from 2 to 6.  In this study, dimension reduction was chosen from 18 features down to 4.  With this level of reduction, 84.6% of the variance was still accounted.  
 
-  
-
+![](Readme%20Pics/%20Elbow%20Plot.png)
 
 Component loading graphs were created to better understand the relationship between the Loading and Variables.  
   
+![](Readme%20Pics/%20Elbow%20Plot.png)
 
+![](Readme%20Pics/data%20description.png)
    
 A biplot was created for the relationship between the first 2 components.  Although the map shows 3 distinct areas of life expectancy facors, the countries association with them is indistinguishable.  It was difficult to gleen additional information from this tool.  
 
- 
+ ![](Readme%20Pics/data%20description.png)
 
 
 ## Supervised Analysis
@@ -95,18 +96,18 @@ Using the Variance Inflation Factor for each predictor, multicollinearity was ev
 
 Akaike Information Criteria was incorporated for predictor selection.  The lowest AIC iteration resulted in the following model: 
 
- 
+ ![](Readme%20Pics/data%20description.png)
  
 
 The results seemed reasonable.  However, future model would perhaps not include Population due to the large P-value.  The overall model had and adjusted R-squared of 0.86 with a P-value less than 2.2e-16.  
 
 The same model was performed with the holdout testing data and resulted in similar results.  
 
- 
+ ![](Readme%20Pics/data%20description.png)
 
 Results were tabulated and are presented in the following graphs.  Note the linear model is not precise at describing real world behavior as some of the data points are 5 deviations from the model.  Although not perfect, the Density plot comparing the model to actual data aligned fairly well. 
 
- 
+ ![](Readme%20Pics/data%20description.png)
 
 
 ## Classification Modeling
@@ -115,7 +116,7 @@ The data set did not include categorical variables.  Therefore, I created a colu
 
 Again, the data was loaded, cleaned and scaled.  Since the dependent variable was categorical, rather than numerical, it was converted into a type factor.  A Generalized Linear Model was run, using the same factors as in the linear model.  The model results were used to create the following confusion matrix:  
 
- 
+ ![](Readme%20Pics/data%20description.png)
 
 These results demonstrate that the chosen predictors are exceptional at determining if a country would have a life expectancy greater than 65 years.  
 
