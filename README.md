@@ -22,7 +22,7 @@ Coding was completed in R using RStudio IDE.   The following defines the process
 2.	Plot and Visualize Data (from 2014 only)
 3.	Scale/Normalize Data
 4.	Perform Exploratory Analysis
-    a. Scatter Plot Matrix of Scaled Data
+    a.	Scatter Plot Matrix of Scaled Data
     b. Calculate Descriptive Statistics
     c. Corrplot() Analysis
     d. Create Training and Testing Data
