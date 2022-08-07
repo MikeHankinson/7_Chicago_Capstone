@@ -1,9 +1,9 @@
 # 7_Chicago_Capstone
 
 ## Skills and Tools
-• Data Exploratory Analysis
-• Unsupervised Modeling: Clustering and Dimension Reduction
-• Supervised Modeling: Multivariate Linear Regression, Obtain Predictor Correlations, Linear Model, Detect Multicollinearity, Predictor Selection, Training and Testing Models
+* Data Exploratory Analysis
+* Unsupervised Modeling: Clustering and Dimension Reduction
+* Supervised Modeling: Multivariate Linear Regression, Obtain Predictor Correlations, Linear Model, Detect Multicollinearity, Predictor Selection, Training and Testing Models
 
 ## Purpose
 Watching my parents age, in addition to getting older myself, I have been interested in methods to extend life, in a quality manner.  I have read articles about blood pressure control, eating habits, effects of anxiety and depression, quality and quantity of sleep, effects of medications and exercise.  It seems everyone has the magic bullet, or at least a piece to the puzzle for becoming “younger” and living longer.
