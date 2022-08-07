@@ -21,25 +21,25 @@ Coding was completed in R using RStudio IDE.   The following defines the process
 1.	Load and Clean Data
 2.	Plot and Visualize Data (from 2014 only)
 3.	Scale/Normalize Data
-4.	Perform Exploratory Analysis 
+4.	Perform Exploratory Analysis
     a. Scatter Plot Matrix of Scaled Data
     b. Calculate Descriptive Statistics
     c. Corrplot() Analysis
     d. Create Training and Testing Data
 5.	Unsupervised Modeling: Perform Clustering and Dimension Reduction
     a.	Perform Kmeans Iteration
-    b.	Elbow Plot: Determine Number of Clusters 
-    c.	Perform PCA: Verify Cluster Number
-    d.	Create Covariance and Correlation Matrices
-    e.	Select the Number of Factors
-        i.	Plotting Factors and Loadings
-       ii.	Extract Insights
+    b. Elbow Plot: Determine Number of Clusters 
+    c. Perform PCA: Verify Cluster Number
+    d. Create Covariance and Correlation Matrices
+    e. Select the Number of Factors
+        i. Plotting Factors and Loadings
+        ii. Extract Insights
 6.	Bi plot of Loadings and Component scores
     a.	Supervised Modeling
         i.	Perform Multivariate Linear Regression Modeling
-       ii.	Obtain Predictor Correlations
-      iii.	Perform Linear Model (training data, top 3 +/- correlated predictors)
-       iv.	Unrestricted Model: Perform Linear Model (training data, all predictors)
+        ii.	Obtain Predictor Correlations
+        iii.	Perform Linear Model (training data, top 3 +/- correlated predictors)
+        iv.	Unrestricted Model: Perform Linear Model (training data, all predictors)
         v.	Detecting Multicollinearity: Valuation Inflation Factor
         vi.	Predictor Selection Using Akaike Information Criteria (AIC)
         vii.	Run Final Training Model
@@ -49,17 +49,14 @@ Coding was completed in R using RStudio IDE.   The following defines the process
     a.	Load, Clean and Scale Data
     b.	Perform Generalized Linear Model
         i.	Convert Dependent Variable to Type Factor  
-       ii.	Run Model / Obtain Log(odds)
-       iii.	Define Classification Rule / Make Predictions
-       iv.	Create Confusion Matrix and Statistics - Compare Predicted Classes to Actual
+        ii.	Run Model / Obtain Log(odds)
+        iii.	Define Classification Rule / Make Predictions
+        iv.	Create Confusion Matrix and Statistics - Compare Predicted Classes to Actual
 
 ## Dataset Description
 I was unable to find a quality dataset that included personal factors that might affect an individual’s life span.  Rather, I obtained population level data compiled by the World Health Organization. 
 
 The data follows specific 22 features for 184 countries from 2000-2015.  The following table defines the dataset:
-
-
-
 
 
 
